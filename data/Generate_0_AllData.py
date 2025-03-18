@@ -17,7 +17,8 @@ start_date = datetime(2018, 1, 1)
 end_date = datetime.now()
 
 # 원하는 봉 간격 리스트 (원하는 기간을 설정할 수 있음)
-intervals = ['1m','3m','5m','10m','15m','30m','1h','4h','12h','1d', '1w']
+# ['1m', '3m', '5m', '15m', '30m', '1h', '2h', '4h', '6h', '8h', '12h', '1d', '3d', '1w', '1M']
+intervals = ['1m', '3m', '5m', '15m', '30m', '1h', '2h', '4h', '6h', '8h', '12h', '1d', '3d', '1w', '1M']
 
 # 데이터 수집 및 저장
 for interval in intervals:
